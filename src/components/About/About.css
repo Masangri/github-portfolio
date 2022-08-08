@@ -1,4 +1,5 @@
 .about {
+  text-align: center;
   flex-direction: column;
   margin-top: 3em;
 }
@@ -7,12 +8,16 @@
   color: var(--clr-primary);
 }
 
+.about__link:hover {
+  color: var(--clr-secondary);
+}
+
 .about__role {
   margin-top: 1.2em;
 }
 
 .about__desc {
-  font-size: 1rem;
+  font-size: 1.2rem;
   max-width: 600px;
 }
 
@@ -22,11 +27,12 @@
 }
 
 .about .link--icon {
-  margin-right: 0.8em;
+  margin-right: 2.5em;
+  scale: 200%;
 }
 
 .about .btn--outline {
-  margin-right: 1em;
+  margin-right: 2.5em;
 }
 
 @media (max-width: 600px) {
